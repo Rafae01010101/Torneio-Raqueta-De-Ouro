@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torneio Raquete de Ouro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos do site */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        h2 {
+            color: #333;
+        }
+        .winner {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .winner-details {
+            margin-left: 20px;
+        }
+        .gold { background-color: gold; }
+        .silver { background-color: silver; }
+        .bronze { background-color: #cd7f32; }
+        footer p {
+            margin: 10px 0;
+        }
+        .social-links {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Torneio Raquete de Ouro</h1>
+        <p>Organizado pela Segunda Série do Colégio Estadual do Campo Pedro Rufino de Siqueira</p>
+    </header>
+
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#vencedores">Vencedores</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <section id="sobre">
+        <h2>Sobre o Torneio</h2>
+        <p>O Torneio Raquete de Ouro é um evento de tênis de mesa organizado pela Segunda Série do Colégio Estadual do Campo Pedro Rufino de Siqueira. Este é o primeiro ano em que o torneio está acontecendo, com o objetivo de promover a integração entre a comunidade escolar e incentivar a prática esportiva. A competição é uma celebração da dedicação, esforço e talento de todos os participantes.</p>
+    </section>
+
+    <section id="vencedores">
+        <h2>Vencedores</h2>
+        <p><em>Agradecemos sinceramente a participação de todos os atletas que contribuíram para o sucesso deste evento. Parabéns a todos pela dedicação, perseverança e espírito esportivo exemplar!</em></p>
+        <p><strong>Agora, é hora de celebrarmos os vencedores! Parabéns a todos os participantes!</strong></p>
+
+        <!-- Vencedores Turno da Manhã -->
+        <h3>Turno da Manhã</h3>
+        <div class="winner gold">
+            <div class="winner-details">
+                <h3>Ouro: Nome do Jogador</h3>
+                <p>O grande campeão do turno da manhã.</p>
+            </div>
+        </div>
+        <div class="winner silver">
+            <div class="winner-details">
+                <h3>Prata: Nome do Jogador</h3>
+                <p>Parabéns pela conquista da medalha de prata!</p>
+            </div>
+        </div>
+        <div class="winner bronze">
+            <div class="winner-details">
+                <h3>Bronze: Nome do Jogador</h3>
+                <p>Excelente desempenho na disputa!</p>
+            </div>
+        </div>
+
+        <!-- Vencedores Turno da Tarde -->
+        <h3>Turno da Tarde</h3>
+        <div class="winner gold">
+            <div class="winner-details">
+                <h3>Ouro: Nome do Jogador</h3>
+                <p>Parabéns ao vencedor do turno da tarde!</p>
+            </div>
+        </div>
+        <div class="winner silver">
+            <div class="winner-details">
+                <h3>Prata: Nome do Jogador</h3>
+                <p>Uma incrível conquista de prata!</p>
+            </div>
+        </div>
+        <div class="winner bronze">
+            <div class="winner-details">
+                <h3>Bronze: Nome do Jogador</h3>
+                <p>Ótimo desempenho no torneio, parabéns!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria">
+        <h2>Galeria</h2>
+        <div class="gallery">
+            <img src="foto-galeria1.jpg" alt="Momento do Torneio" style="width:100%; max-width: 400px; margin-bottom: 10px;">
+            <img src="foto-galeria2.jpg" alt="Competidores" style="width:100%; max-width: 400px;">
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <div class="form-container">
+            <form>
+                <input type="text" name="nome" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu E-mail" required>
+                <textarea name="mensagem" rows="4" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Colégio Estadual do Campo Pedro Rufino de Siqueira. Todos os direitos reservados.</p>
+        <div class="social-links">
+            <p>Nos siga no Instagram: <a href="https://www.instagram.com/segunda2_serie" target="_blank">@segunda2_serie</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
